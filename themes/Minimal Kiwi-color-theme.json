@@ -3,6 +3,19 @@
 	"type": "dark",
 	"colors": {
 		"activityBar.activeBorder": "#93d479",
+		"editor.cursorSmoothCaretAnimation": "on",
+    		"editor.guides.bracketPairs": "active",
+    		"editor.fontFamily": "Cascadia mono PL, Consolas, Brass Mono Regular, 'Courier New', monospace",
+		"emmet.triggerExpansionOnTab": true,
+    		"emmet.useInlineCompletions": true,
+		"editor.codeLensFontFamily": "Cascadia mono PL",
+    		"editor.inlayHints.fontFamily": "Cascadia mono PL",
+    		"editor.inlineSuggest.fontFamily": "Cascadia mono PL",
+    		"debug.console.fontFamily": "Cascadia mono PL",
+    		"notebook.output.fontFamily": "Cascadia mono PL",
+    		"chat.editor.fontFamily": "Cascadia mono PL",
+		"editor.experimentalInlineEdit.fontFamily": "Cascadia mono PL",
+    		"scm.inputFontFamily": "Cascadia mono PL",
 		"activityBar.background": "#1a1a1a",
 		"activityBar.border": "#44444460",
 		"activityBar.foreground": "#93d479",
@@ -114,7 +127,7 @@
 		"menu.selectionBackground": "#00000050",
 		"menu.selectionBorder": "#00000030",
 		"menu.selectionForeground": "#93d479",
-		"menu.separatorBackground": "#e1e1e1",
+		"menu.separatorBackground": "#00000000",
 		"menubar.selectionBackground": "#00000030",
 		"menubar.selectionBorder": "#00000030",
 		"menubar.selectionForeground": "#93d479",
@@ -903,14 +916,14 @@
 		{
 			"scope": "comment",
 			"settings": {
-				"foreground": "#4A4A4A",
+				"foreground": "#bcc9d14b",
 				"fontStyle": "italic"
 			}
 		},
 		{
 			"scope": "comment punctuation.definition.comment, string.quoted.docstring",
 			"settings": {
-				"foreground": "#4A4A4A",
+				"foreground": "#bcc9d14b",
 				"fontStyle": "italic"
 			}
 		},
@@ -1388,6 +1401,15 @@
 				"foreground": "#F44747"
 			}
 		},
+		{
+                "scope": [
+                    "keyword.operator"
+                ],
+                "settings": {
+                    "foreground": "#ffef85",
+                    "fontStyle": "italic"
+                }
+            },
 		{
 			"scope": "token.debug-token",
 			"settings": {
