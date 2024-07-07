@@ -1411,6 +1411,56 @@
                 }
             },
 		{
+                "scope": [
+                    "punctuation.definition.comment.ini "
+                ],
+                "settings": {
+                    "foreground": "#ffef856b",
+                    "fontStyle": "italic"
+                }
+            },
+		 {
+                "scope": [
+                    "punctuation.definition.string.end.python"
+                ],
+                "settings": {
+                    "foreground": "#d1ffa66c",
+                    "fontStyle": "italic"
+                }
+            },
+            {
+                "scope": [
+                    "punctuation.definition.string.begin.python"
+                ],
+                "settings": {
+                    "foreground": "#d1ffa66c",
+                    "fontStyle": "italic"
+                }
+            },
+		{
+                "scope": [
+                    "string.quoted.docstring.multi.python"
+                ],
+                "settings": {
+                    "foreground": "#e0ffa64b",
+                    "fontStyle": "italic"
+                }
+            },
+		{
+                "scope": "meta.attribute",
+                "settings": {
+                    "foreground": "#97eaff",
+                    "fontStyle": "italic"
+                }
+            },
+		{
+                "scope": "constant.other.caps",
+                "settings": {
+                    "foreground": "#ffd9b4",
+                    "fontStyle": "italic"
+                }
+            }
+		{
 			"scope": "token.debug-token",
 			"settings": {
 				"foreground": "#B267E6"
