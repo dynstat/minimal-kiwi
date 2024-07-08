@@ -1449,7 +1449,7 @@
 		{
                 "scope": "entity.name.function.preprocessor.c",
                 "settings": {
-                    "foreground": "#e58888",
+                    "foreground": "#da957e",
                 }
             },
 		{
