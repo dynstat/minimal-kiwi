@@ -1447,6 +1447,12 @@
                 }
             },
 		{
+                "scope": "entity.name.function.preprocessor.c",
+                "settings": {
+                    "foreground": "#e58888",
+                }
+            },
+		{
                 "scope": "meta.attribute",
                 "settings": {
                     "foreground": "#97eaff",
