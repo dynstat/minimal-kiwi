@@ -1,0 +1,14 @@
+@font-face {
+  font-family: 'Cascadia Mono PL';
+  src: url('./assets/CascadiaMonoPL.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Cascadia Mono PL', 'DefaultMonospaceFont', monospace;
+}
+
+.monaco-editor {
+  font-family: 'Cascadia Mono PL', 'DefaultMonospaceFont', monospace;
+}
