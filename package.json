@@ -8,12 +8,12 @@
     "name": "Pranjal Kumar",
     "email": "pranjalkumar.dev@gmail.com",
     "url": "https://blogs.pranjalkumar.in"
-  },  
+  },
   "homepage": "https://github.com/pranjal-barnwal/minimal-kiwi/blob/main/README.md",
   "icon": "assets/logo.webp",
   "repository": {
-      "type": "git",
-      "url": "https://github.com/pranjal-barnwal/minimal-kiwi"
+    "type": "git",
+    "url": "https://github.com/pranjal-barnwal/minimal-kiwi"
   },
   "bugs": {
     "url": "https://github.com/pranjal-barnwal/minimal-kiwi/issues"
@@ -46,5 +46,8 @@
         "path": "./themes/Minimal Kiwi-color-theme.json"
       }
     ]
-  }
+  },
+  "styles": [
+    "./styles.css"
+  ]
 }
