@@ -3,19 +3,6 @@
 	"type": "dark",
 	"colors": {
 		"activityBar.activeBorder": "#93d479",
-		"editor.cursorSmoothCaretAnimation": "on",
-    		"editor.guides.bracketPairs": "active",
-    		"editor.fontFamily": "Cascadia mono PL, Consolas, Brass Mono Regular, 'Courier New', monospace",
-		"emmet.triggerExpansionOnTab": true,
-    		"emmet.useInlineCompletions": true,
-		"editor.codeLensFontFamily": "Cascadia mono PL",
-    		"editor.inlayHints.fontFamily": "Cascadia mono PL",
-    		"editor.inlineSuggest.fontFamily": "Cascadia mono PL",
-    		"debug.console.fontFamily": "Cascadia mono PL",
-    		"notebook.output.fontFamily": "Cascadia mono PL",
-    		"chat.editor.fontFamily": "Cascadia mono PL",
-		"editor.experimentalInlineEdit.fontFamily": "Cascadia mono PL",
-    		"scm.inputFontFamily": "Cascadia mono PL",
 		"activityBar.background": "#1a1a1a",
 		"activityBar.border": "#44444460",
 		"activityBar.foreground": "#93d479",
@@ -39,19 +26,6 @@
 		"diffEditor.removedTextBackground": "#ff9cac20",
 		"dropdown.background": "#212121",
 		"dropdown.border": "#ffffff10",
-		"editor.cursorSmoothCaretAnimation": "on",
-		"editor.guides.bracketPairs": "active",
-		"editor.fontFamily": "Cascadia mono PL, Consolas, Brass Mono Regular, 'Courier New', monospace",
-		"explorer.confirmDragAndDrop": false,
-		"editor.codeLensFontFamily": "Cascadia mono PL",
-	        "editor.inlayHints.fontFamily": "Cascadia mono PL",
-	    	"editor.inlineSuggest.fontFamily": "Cascadia mono PL",
-	    	"debug.console.fontFamily": "Cascadia mono PL",
-	    	"notebook.output.fontFamily": "Cascadia mono PL",
-	    	"chat.editor.fontFamily": "Cascadia mono PL",
-		"scm.inputFontFamily": "Cascadia mono PL",
-    		"explorer.confirmDelete": false,
-		"emmet.useInlineCompletions": true,
 		"editor.background": "#212121",
 		"editor.findMatchBackground": "#000000",
 		"editor.findMatchBorder": "#93d479",
@@ -79,8 +53,8 @@
 		"editorGutter.modifiedBackground": "#8cb0ff60",
 		"editorHoverWidget.background": "#1a1a1a",
 		"editorHoverWidget.border": "#ffffff10",
-		"editorIndentGuide.activeBackground": "#424242",
-		"editorIndentGuide.background": "#42424270",
+		"editorIndentGuide.activeBackground1": "#424242",
+		"editorIndentGuide.background1": "#42424270",
 		"editorInfo.foreground": "#8cb0ff70",
 		"editorLineNumber.activeForeground": "#848484",
 		"editorLineNumber.foreground": "#424242",
@@ -88,7 +62,7 @@
 		"editorMarkerNavigation.background": "#e1e1e105",
 		"editorOverviewRuler.border": "#212121",
 		"editorOverviewRuler.errorForeground": "#f0717840",
-		"editorOverviewRuler.findMatchForeground": "#80cbc4",
+		"editorOverviewRuler.findMatchForeground": "#80cbc3d0",
 		"editorOverviewRuler.infoForeground": "#8cb0ff40",
 		"editorOverviewRuler.warningForeground": "#ffcb6b40",
 		"editorRuler.foreground": "#424242",
@@ -887,12 +861,12 @@
 			"scope": "keyword.other",
 			"settings": {
 				"foreground": "#F78C6C"
-				}
-				},
-				{
-					"scope": "keyword, modifier, variable.language.this, support.type.object, constant.language",
-					"settings": {
-						"foreground": "#89DDFF"
+			}
+		},
+		{
+			"scope": "keyword, modifier, variable.language.this, support.type.object, constant.language",
+			"settings": {
+				"foreground": "#89DDFF"
 			}
 		},
 		{
@@ -1381,13 +1355,13 @@
 		{
 			"scope": "comment",
 			"settings": {
-				"foreground": "#9aadae"
-				}
-				},
+				"foreground": "#bcc9d14b"
+			}
+		},
 		{
 			"scope": "punctuation.definition.comment",
 			"settings": {
-				"foreground": "#9aadae"
+				"foreground": "#bcc9d14b"
 			}
 		},
 		{
@@ -1415,70 +1389,70 @@
 			}
 		},
 		{
-                "scope": [
-                    "keyword.operator"
-                ],
-                "settings": {
-                    "foreground": "#ffef85",
-                    "fontStyle": "italic"
-                }
-            },
+			"scope": [
+				"keyword.operator"
+			],
+			"settings": {
+				"foreground": "#ffef85",
+				"fontStyle": "italic"
+			}
+		},
 		{
-                "scope": [
-                    "punctuation.definition.comment.ini "
-                ],
-                "settings": {
-                    "foreground": "#ffef856b",
-                    "fontStyle": "italic"
-                }
-            },
-		 {
-                "scope": [
-                    "punctuation.definition.string.end.python"
-                ],
-                "settings": {
-                    "foreground": "#d1ffa66c",
-                    "fontStyle": "italic"
-                }
-            },
-            {
-                "scope": [
-                    "punctuation.definition.string.begin.python"
-                ],
-                "settings": {
-                    "foreground": "#d1ffa66c",
-                    "fontStyle": "italic"
-                }
-            },
+			"scope": [
+				"punctuation.definition.comment.ini "
+			],
+			"settings": {
+				"foreground": "#ffef856b",
+				"fontStyle": "italic"
+			}
+		},
 		{
-                "scope": [
-                    "string.quoted.docstring.multi.python"
-                ],
-                "settings": {
-                    "foreground": "#e0ffa64b",
-                    "fontStyle": "italic"
-                }
-            },
+			"scope": [
+				"punctuation.definition.string.end.python"
+			],
+			"settings": {
+				"foreground": "#d1ffa66c",
+				"fontStyle": "italic"
+			}
+		},
 		{
-                "scope": "entity.name.function.preprocessor.c",
-                "settings": {
-                    "foreground": "#ab9bf2",
-                }
-            },
+			"scope": [
+				"punctuation.definition.string.begin.python"
+			],
+			"settings": {
+				"foreground": "#d1ffa66c",
+				"fontStyle": "italic"
+			}
+		},
 		{
-                "scope": "meta.attribute",
-                "settings": {
-                    "foreground": "#97eaff",
-                    "fontStyle": "italic"
-                }
-            },
+			"scope": [
+				"string.quoted.docstring.multi.python"
+			],
+			"settings": {
+				"foreground": "#e0ffa64b",
+				"fontStyle": "italic"
+			}
+		},
 		{
-                "scope": "constant.other.caps",
-                "settings": {
-                    "foreground": "#ffd9b4",
-                    "fontStyle": "italic"
-                }
-            }
+			"scope": "entity.name.function.preprocessor.c",
+			"settings": {
+				"foreground": "#ab9bf2",
+			}
+		},
+		{
+			"scope": "meta.attribute",
+			"settings": {
+				"foreground": "#97eaff",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"scope": "constant.other.caps",
+			"settings": {
+				"foreground": "#ffd9b4",
+				"fontStyle": "italic"
+			}
+		},
 		{
 			"scope": "token.debug-token",
 			"settings": {
