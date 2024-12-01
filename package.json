@@ -1,16 +1,14 @@
 {
-  "name": "minimal-kiwi",
-  "displayName": "Minimal Kiwi",
-  "description": "VSCode theme that immerse you in the refreshing allure: A minimalistic, vibrant VSCode theme that harmonizes productivity with the soothing hue of Green Kiwi.",
-  "version": "1.4.0",
-  "publisher": "pranjalkumar",
+  "name": "minimal-kiwi-clean",
+  "displayName": "Minimal Kiwi Clean",
+  "description": "VSCode theme based on Minimal Kiwi - A minimalistic, vibrant VSCode theme that harmonizes productivity with the soothing hue of Green Kiwi.",
+  "version": "1.0.0",
+  "publisher": "dynstat",
   "author": {
-    "name": "Pranjal Kumar",
-    "email": "pranjalkumar.dev@gmail.com",
-    "url": "https://blogs.pranjalkumar.in"
+    "name": "Vivek Singh",
+    "email": "vs15vivek@gmail.com"
   },
-  "homepage": "https://github.com/pranjal-barnwal/minimal-kiwi/blob/main/README.md",
-  "icon": "assets/logo.webp",
+  "homepage": "https://github.com/dynstat/minimal-kiwi/blob/main/README.md",
   "repository": {
     "type": "git",
     "url": "https://github.com/dynstat/minimal-kiwi"
@@ -49,5 +47,6 @@
   },
   "styles": [
     "./styles.css"
-  ]
+  ],
+  "icon": "icon.png"
 }
