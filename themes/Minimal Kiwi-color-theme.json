@@ -142,7 +142,7 @@
 		"progressBar.background": "#93d479",
 		"quickInput.background": "#212121",
 		"quickInput.foreground": "#848484",
-		"quickInput.list.focusBackground": "#e1e1e120",
+		"quickInputList.focusBackground": "#e1e1e120",
 		"sash.hoverBorder": "#80cbc450",
 		"scrollbar.shadow": "#00000030",
 		"scrollbarSlider.activeBackground": "#93d47950",
@@ -1457,6 +1457,135 @@
 			"scope": "token.debug-token",
 			"settings": {
 				"foreground": "#B267E6"
+			}
+		},
+		{
+			"scope": "meta.property.object.ts",
+			"settings": {
+				"foreground": "#4EC9B0"
+			}
+		},
+		{
+			"scope": "variable.other.property.ts",
+			"settings": {
+				"foreground": "#9CDCFE"
+			}
+		},
+		{
+			"scope": "variable.other.object.property.ts",
+			"settings": {
+				"foreground": "#e3a2c2"
+			}
+		},
+		{
+			"scope": [
+				"support.type.primitive.ts",
+				"support.type.builtin.ts",
+				"support.type.primitive.tsx",
+				"support.type.builtin.tsx"
+			],
+			"settings": {
+				"foreground": "#ffc66b" // Orange for primitive types like string, boolean
+			}
+		},
+		{
+			"scope": [
+				"entity.name.type.class.ts",
+				"entity.name.type.class.tsx",
+				"entity.name.type.interface.ts",
+				"entity.name.type.interface.tsx"
+			],
+			"settings": {
+				"foreground": "#78dcc8" // Cyan-like color for class/interface names
+			}
+		},
+		{
+			"scope": [
+				"entity.name.type.ts",
+				"entity.name.type.tsx"
+			],
+			"settings": {
+				"foreground": "#89dfd5" // Different shade for custom types
+			}
+		},
+		{
+			"scope": [
+				"variable.other.readwrite.ts",
+				"variable.other.readwrite.tsx"
+			],
+			"settings": {
+				"foreground": "#9CDCFE" // Light blue for variable names
+			}
+		},
+		{
+			"scope": [
+				"entity.name.type.ts",
+				"entity.name.type.tsx",
+				"support.class.ts",
+				"support.class.tsx"
+			],
+			"settings": {
+				"foreground": "#4EC9B0" // Cyan for class names
+			}
+		},
+		{
+			"scope": [
+				"variable.other.constant.ts",
+				"variable.other.constant.tsx"
+			],
+			"settings": {
+				"foreground": "#CE9178" // Coral for constants
+			}
+		},
+		{
+			"scope": [
+				"support.type.primitive.ts",
+				"support.type.builtin.ts",
+				"support.type.primitive.tsx",
+				"support.type.builtin.tsx"
+			],
+			"settings": {
+				"foreground": "#ffc66b"
+			}
+		},
+		{
+			"scope": [
+				"variable.other.readwrite.ts",
+				"variable.other.readwrite.tsx"
+			],
+			"settings": {
+				"foreground": "#b4fbdf" // Light blue for variable names
+			}
+		},
+		{
+			"scope": [
+				"entity.name.type.ts",
+				"entity.name.type.tsx",
+				"support.class.ts",
+				"support.class.tsx"
+			],
+			"settings": {
+				"foreground": "#4EC9B0" // Cyan for class names
+			}
+		},
+		{
+			"scope": [
+				"variable.other.constant.ts",
+				"variable.other.constant.tsx"
+			],
+			"settings": {
+				"foreground": "#CE9178" // Coral for constants
+			}
+		},
+		{
+			"scope": [
+				"support.type.primitive.ts",
+				"support.type.builtin.ts",
+				"support.type.primitive.tsx",
+				"support.type.builtin.tsx"
+			],
+			"settings": {
+				"foreground": "#ffc66b"
 			}
 		}
 	]
