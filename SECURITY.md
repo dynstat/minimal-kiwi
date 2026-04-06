@@ -14,7 +14,7 @@ We release patches for security vulnerabilities in the following versions:
 
 We take the security of our project seriously. If you discover a security vulnerability, we appreciate your efforts to responsibly disclose the issue to us. Please report vulnerabilities by following these steps:
 
-1. **Email Us**: Send an email to [pranjalkumar@duck.com](mailto:pranjalkumar@duck.com) with the subject "Security Vulnerability Report". Include the following information:
+1. **Email Us**: Include the following information:
     - A detailed description of the vulnerability.
     - Steps to reproduce the vulnerability.
     - Any potential impact the vulnerability may have.
@@ -38,6 +38,6 @@ To ensure the security of our project, we follow these best practices:
 
 ## Contact
 
-If you have any questions or concerns about our security policy, please contact us at [pranjalkumar@duck.com](mailto:pranjalkumar@duck.com).
+If you have any questions or concerns about our security policy, please contact.
 
 Thank you for helping us keep our project secure!
