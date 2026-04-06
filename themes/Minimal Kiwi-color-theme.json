@@ -1587,6 +1587,27 @@
 			"settings": {
 				"foreground": "#ffc66b"
 			}
+		},
+		{
+			"scope": "keyword.operator.logical.rust",
+			"settings": {
+				"foreground": "#fd8c8c",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope": "meta.interpolation.rust",
+			"settings": {
+				"foreground": "#d3d3d3",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope": "comment.line.double-slash.rust",
+			"settings": {
+				"foreground": "#535353",
+				"fontStyle": ""
+			}
 		}
 	]
 }

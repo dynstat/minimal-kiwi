@@ -16,6 +16,15 @@ A clean and practical VS Code theme focused on readability and reduced eye strai
 - Clean and distraction-free interface
 - Carefully selected color palette
 
+## Recommended Settings
+
+For the best experience, we recommend adding the following to your `settings.json`:
+```json
+{
+  "editor.inlayHints.enabled": "on",
+  "editor.inlineSuggest.enabled": true
+}
+```
 
 ## Issues & Suggestions
 
